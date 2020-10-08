@@ -1,6 +1,6 @@
 # Depth from Defocus
 
-##1. Introduction
+## 1. Introduction
 ### Goal
 Get depth infromation from photos have different focal length
 
