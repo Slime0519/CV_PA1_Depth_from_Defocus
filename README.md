@@ -21,7 +21,7 @@ Get depth infromation from photos have different focal length
     - Due : PM 11:54:59 at 2020/10/30 (Friday)
     
 
-##2. Details
+## 2. Details
 
 ### Image alignment
 - Alignment given images based on feature (feature-based alignment)
@@ -63,14 +63,14 @@ ICCV 2013, Z. Ma et al.
 - Code : http://kaiminghe.com/  
 
 
-## 2. Requirement
+## 3. Requirement
 
 - MATLAB (I used MATLAB R2020b)
 - Image Alignment Toolbox ([Link](https://sites.google.com/site/imagealignment/home))
 - Multi-label optimization library(gco-v3.0, [Link](https://vision.cs.uwaterloo.ca/code/))
 - Weighted Median Filter Toolbox ([Link](http://kaiminghe.com/))
 
-## 3. Result
+## 4. Result
 
 ### (i) Final depth map
 <div align = "center">
