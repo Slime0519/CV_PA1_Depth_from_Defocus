@@ -20,6 +20,7 @@ Get depth infromation from photos have different focal length
     - File name : PA1_NAME_ID.zip
     - Due : PM 11:54:59 at 2020/10/30 (Friday)
     
+
 ##2. Details
 
 ### Image alignment
@@ -60,4 +61,29 @@ Get depth infromation from photos have different focal length
 - Referencing “Constant time weighted median filtering for stereo matching and beyond”,
 ICCV 2013, Z. Ma et al.
 - Code : http://kaiminghe.com/  
-    
+
+
+## 2. Requirement
+
+- MATLAB (I used MATLAB R2020b)
+- Image Alignment Toolbox ([Link](https://sites.google.com/site/imagealignment/home))
+- Multi-label optimization library(gco-v3.0, [Link](https://vision.cs.uwaterloo.ca/code/))
+- Weighted Median Filter Toolbox ([Link](http://kaiminghe.com/))
+
+## 3. Result
+
+### (i) Final depth map
+<div align = "center">
+<img src="./Readme_Images/initial_depthmap.png"  width="300" height="300">
+<img src="./Readme_Images/Final_depthmap.png"  width="300" height="300">
+</div>
+Left image is initial disparity map, and right one is final depth map. Final depth map is got from left disparity map, and I applied graph-cut and WMF(Weighted Median Filtering) for getting final depth map.
+
+### (ii) All-in-Focus Image
+<div align = "center">
+<img src="./Readme_Images/initial_allinfocus.png"  width="300" height="300">
+<img src="./Readme_Images/Refined_allinfocus.png"  width="300" height="300">
+</div>
+I could get all-in-focus image using by above disparity/depth map. Left image is all-in-focus image, which obtained from initial disparity map, and right one is obtained from final depth map. I wrote detail method in my report.  Obviously, left image is more blurry than right image, because initial depth map is imperfect. 
+
+
